@@ -1,18 +1,16 @@
 import React from 'react';
-import NavBar from './components/NavBar';
-import HeroMinimal from './components/HeroMinimal';
-import FeatureRows from './components/FeatureRows';
-import Plans from './components/Plans';
-import FooterMinimal from './components/FooterMinimal';
+import HeroAI from './components/HeroAI';
+import BenefitsFlow from './components/BenefitsFlow';
+import SocialProof from './components/SocialProof';
+import FinalCTA from './components/FinalCTA';
 
 function App() {
   return (
-    <div className="min-h-screen w-full bg-[#0B0A10] text-white antialiased">
-      <NavBar />
-      <HeroMinimal />
-      <FeatureRows />
-      <Plans />
-      <FooterMinimal />
+    <div className="min-h-screen w-full bg-gradient-to-b from-[#F6F7FB] to-white text-[#1E293B] antialiased selection:bg-purple-200/60 selection:text-[#1E293B]">
+      <HeroAI />
+      <BenefitsFlow />
+      <SocialProof />
+      <FinalCTA />
     </div>
   );
 }
